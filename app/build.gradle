@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+/**
+ * 主mode app-》build.gradle
+ * n个副mode -》build.gradle
+ *
+ * 1.统一性
+ * 2.便于管理
+ * 3.版本管理
+ *
+ * Gradle构建的三个性能指标
+ * 全量编译：全部编译，open project
+ * 代码增量编译：修改了java、kotlin下面代码的时候编译
+ * 资源增量编译：修改了res下面的资源文件的时候编译
+ */
+android {
+    /**
+     * 调试
+     *
+     */
+    compileSdkVersion rootProject.ext.android["compileSdkVersion"]
+    buildToolsVersion rootProject.ext.android["buildToolsVersion"]
+
+    defaultConfig {
+        applicationId rootProject.ext.android["applicationId"]
+        minSdkVersion rootProject.ext.android["minSdkVersion"]
+        targetSdkVersion rootProject.ext.android["targetSdkVersion"]
+        versionCode rootProject.ext.android["versionCode"]
+        versionName rootProject.ext.android["versionName"]
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            //清理无用资源
+            //shrinkResources true
+            //是否启动ZipAlign亚索
+            zipAlignEnabled true
+            //demo需要给同学们使用则不混淆
+            //是否混淆
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    //添加framework依赖
+    implementation project(path: ':Framework')
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
+
+}
