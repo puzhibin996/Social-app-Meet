@@ -89,7 +89,7 @@ public class TiemUtils {
      * @return 2013年7月3日 18:05(星期三)
      */
 
-    public static String convertDayOfWeek(String timeFormat, long longTime) {
+    /*public static String convertDayOfWeek(String timeFormat, long longTime) {
 
         Calendar c = Calendar.getInstance(); // 日历实例
 
@@ -115,12 +115,12 @@ public class TiemUtils {
 
     }
 
-    /**
+    *//**
      * 转换数字的星期为字符串的
      *
      * @param w 星期
      * @return 星期x
-     */
+     *//*
 
     private static String converToWeek(int w) {
 
@@ -176,6 +176,6 @@ public class TiemUtils {
 
         return week;
 
-    }
+    }*/
 
 }
