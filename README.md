@@ -6,4 +6,4 @@ Day one：
 
 Day two:
 <b>学习MediaPlayer播放器的基本使用</b>
-MediaPlayer的详细内容CSDN上面都有，我就不一一贴出来。
+/n MediaPlayer的详细内容CSDN上面都有，我就不一一贴出来。
