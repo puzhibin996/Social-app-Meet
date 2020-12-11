@@ -8,5 +8,5 @@ Day two:
 <b>学习MediaPlayer播放器的基本使用</b>  
 </br>MediaPlayer的详细内容CSDN上面都有，我就不一一贴出来。
 </br>代码都可以正常运行，最新代码可以切换到<test_noe>分支拉取代码
-![Image](https://raw.githubusercontent.com/siyecao/image-folder/master/images/file_watchers.png)
-</br>image: C:/Users/Pactera/Desktop/xuexi/1.jpg
+![Image](https://github.com/ForgottenYou/Social-app-Meet/blob/main/explain/1607657231(1).jpg)
+
