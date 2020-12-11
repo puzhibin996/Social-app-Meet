@@ -22,7 +22,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="337911d8-3f95-4620-8afa-1074b4c8c47a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Framework/src/main/java/com/puzhibin/framework/entity/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework/src/main/java/com/puzhibin/framework/utils/SpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/puzhibin/meet/ui/GuideActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/puzhibin/meet/ui/IndexActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/puzhibin/meet/ui/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +76,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="valueResourceFile" />
+        <option value="Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -74,7 +106,11 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.587850007">
+      <recent name="com.puzhibin.meet" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Test_demo\1209_project\meet\explain" />
       <recent name="D:\Test_demo\1209_project\meet\app\src\main\res" />
     </key>
   </component>
@@ -208,10 +244,18 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2228" y="419" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.737/1366.0.1920.1080@1366.0.1920.1080" timestamp="1607650507474" />
-    <state x="2073" y="371" key="AndroidCreateResourceFileDialog" timestamp="1607650346433">
+    <state x="2223" y="363" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607667107162">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="2073" y="371" key="AndroidCreateResourceFileDialog/0.0.1366.737/1366.0.1920.1080@1366.0.1920.1080" timestamp="1607650346433" />
+    <state x="2223" y="363" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.737/1366.0.1920.1080@1366.0.1920.1080" timestamp="1607667107162" />
+    <state x="2073" y="371" key="AndroidCreateResourceFileDialog" timestamp="1607667442628">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2073" y="371" key="AndroidCreateResourceFileDialog/0.0.1366.737/1366.0.1920.1080@1366.0.1920.1080" timestamp="1607667442628" />
+    <state x="2179" y="351" key="AndroidCreateXmlResourceDialog" timestamp="1607668015362">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2179" y="351" key="AndroidCreateXmlResourceDialog/0.0.1366.737/1366.0.1920.1080@1366.0.1920.1080" timestamp="1607668015362" />
     <state x="2181" y="304" key="AndroidProcessChooserDialog" timestamp="1607570092681">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
@@ -220,22 +264,22 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2106" y="294" key="FileChooserDialogImpl/0.0.1366.737/1366.0.1920.1080@1366.0.1920.1080" timestamp="1607498537105" />
-    <state width="1506" height="239" key="GridCell.Tab.0.bottom" timestamp="1607654266170">
+    <state width="1506" height="239" key="GridCell.Tab.0.bottom" timestamp="1607673785161">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1506" height="239" key="GridCell.Tab.0.bottom/0.0.1366.737/1366.0.1920.1080@1366.0.1920.1080" timestamp="1607654266170" />
-    <state width="1506" height="239" key="GridCell.Tab.0.center" timestamp="1607654266170">
+    <state width="1506" height="239" key="GridCell.Tab.0.bottom/0.0.1366.737/1366.0.1920.1080@1366.0.1920.1080" timestamp="1607673785161" />
+    <state width="1506" height="239" key="GridCell.Tab.0.center" timestamp="1607673785160">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1506" height="239" key="GridCell.Tab.0.center/0.0.1366.737/1366.0.1920.1080@1366.0.1920.1080" timestamp="1607654266170" />
-    <state width="1506" height="239" key="GridCell.Tab.0.left" timestamp="1607654266170">
+    <state width="1506" height="239" key="GridCell.Tab.0.center/0.0.1366.737/1366.0.1920.1080@1366.0.1920.1080" timestamp="1607673785160" />
+    <state width="1506" height="239" key="GridCell.Tab.0.left" timestamp="1607673785159">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1506" height="239" key="GridCell.Tab.0.left/0.0.1366.737/1366.0.1920.1080@1366.0.1920.1080" timestamp="1607654266170" />
-    <state width="1506" height="239" key="GridCell.Tab.0.right" timestamp="1607654266170">
+    <state width="1506" height="239" key="GridCell.Tab.0.left/0.0.1366.737/1366.0.1920.1080@1366.0.1920.1080" timestamp="1607673785159" />
+    <state width="1506" height="239" key="GridCell.Tab.0.right" timestamp="1607673785160">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1506" height="239" key="GridCell.Tab.0.right/0.0.1366.737/1366.0.1920.1080@1366.0.1920.1080" timestamp="1607654266170" />
+    <state width="1506" height="239" key="GridCell.Tab.0.right/0.0.1366.737/1366.0.1920.1080@1366.0.1920.1080" timestamp="1607673785160" />
     <state x="1731" y="126" key="SettingsEditor" timestamp="1607499196622">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
