@@ -21,7 +21,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Meet" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="337911d8-3f95-4620-8afa-1074b4c8c47a" name="Default Changelist" comment="" />
+    <list default="true" id="337911d8-3f95-4620-8afa-1074b4c8c47a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +71,7 @@
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.ChangelistConflict" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -247,10 +249,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="1506" height="239" key="GridCell.Tab.0.right/0.0.1366.737/1366.0.1920.1080@1366.0.1920.1080" timestamp="1607673785160" />
-    <state x="1731" y="126" key="SettingsEditor" timestamp="1607499196622">
+    <state x="1731" y="126" key="SettingsEditor" timestamp="1607912398495">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1731" y="126" key="SettingsEditor/0.0.1366.737/1366.0.1920.1080@1366.0.1920.1080" timestamp="1607499196622" />
+    <state x="1731" y="126" key="SettingsEditor/0.0.1366.737/1366.0.1920.1080@1366.0.1920.1080" timestamp="1607912398495" />
     <state x="2081" y="381" key="edit.logcat.filter.dialog.dimensions" timestamp="1607505367169">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
